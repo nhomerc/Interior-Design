@@ -1,0 +1,134 @@
+body {
+  width: 320px;
+}
+.page-header {
+  position: relative;
+
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 26px;
+  padding-right: 14px;
+  padding-bottom: 171px;
+  padding-left: 16px;
+
+  color: #ffffff;
+
+  box-sizing: border-box;
+
+  background-image: url("../img/header-layer_mobile.png"), url("../img/header-image_mobile.png");
+  background-repeat: no-repeat;
+}
+.page-header__menu {
+  width: 34px;
+  padding: 0;
+  margin: 0;
+  z-index: 2;
+
+  background-image: url("../img/menu_mobile.png");
+  border: none;
+  background-color: transparent;
+}
+.page-header__menu.open {
+  width: 25px;
+
+  background-image: url("../img/close_mobile.png");
+  background-repeat: no-repeat;
+}
+.page-header__navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 122px;
+}
+.page-header__nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: none;
+  padding-bottom: 78px;
+  width: 320px;
+  z-index: 1;
+
+  background-color: #112537;
+}
+.page-header__list {
+  margin: 0;
+  padding: 0;
+  padding-top: 124px;
+
+  list-style: none;
+
+  font-family: "Raleway";
+  font-weight: 400px;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.page-header__item {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 35px;
+  &:last-child {
+    margin-bottom: 67px;
+  }
+}
+.page-header__list-link {
+  text-decoration: none;
+  color: #ffffff;
+
+  cursor: pointer;
+  &:hover {
+    color: #f8a25a;
+  }
+}
+.page-header__social {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+
+  list-style: none;
+}
+.page-header__caption {
+  font-size: 48px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  text-align: center;
+}
+.page-header__text {
+  font-size: 18px;
+  font-family: "Muller Thin", serif;
+  text-align: center;
+}
+.page-header__button {
+  display: block;
+  width: 223px;
+  padding-top: 18px;
+  padding-bottom: 19px;
+  padding-left: 36px;
+  padding-right: 35px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: "Raleway", serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #f8a25a;
+
+  border: none;
+}
+.page-header__img {
+  position: absolute;
+  bottom: 84px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.page-header__nav.show {
+  display: block;
+}
+
