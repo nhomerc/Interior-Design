@@ -1,6 +1,9 @@
 body {
-  margin-left: auto;
-  margin-right: auto;
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+
+  background-color: #282828;
 }
 img {
   max-width: 100%;
@@ -52,3 +55,4 @@ img {
 }
 
 @import "page-header.scss";
+@import "main-features.scss";
