@@ -1,0 +1,63 @@
+.portfolio {
+  position: relative;
+
+  width: 320px;
+  padding-bottom: 134px;
+
+  background-color: #ffffff;
+}
+.portfolio__caption {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+}
+.portfolio__list {
+  padding-left: 16px;
+
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 22px;
+  list-style: none;
+}
+.portfolio__item {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 25px;
+
+  color: #bababa;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.portfolio__item.active {
+  color: #000000;
+}
+.portfolio__list-image {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+.portfolio__item-text {
+  position: absolute;
+  left: 50%;
+  bottom: 96px;
+
+  min-width: 290px;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+
+  transform: translateX(-50%);
+}

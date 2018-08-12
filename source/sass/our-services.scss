@@ -1,0 +1,75 @@
+.our-services {
+  width: 320px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 109px;
+
+  background-color: #ffffff;
+}
+.our-services__caption {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+}
+.our-services__list {
+  margin: 0;
+  padding: 0;
+  padding-left: 16px;
+
+  list-style: none;
+}
+.our-services__item {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 22px;
+  color: #bababa;
+  &:last-child {
+    margin-bottom: 60px;
+  }
+  &.active {
+    font-weight: 700;
+    color: #000000;
+  }
+}
+.our-services__text {
+  margin: 0;
+  padding: 0;
+  margin-top: 33px;
+  margin-bottom: 52px;
+  padding-left: 16px;
+  padding-right: 14px;
+
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 20px;
+  color: #9b9a97;
+}
+.our-services__button {
+  display: block;
+  width: 217px;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 24px;
+  padding-bottom: 18px;
+  padding-left: 39px;
+  padding-right: 38px;
+
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+
+  background-color: transparent;
+  border: 2px solid #000000;
+}
