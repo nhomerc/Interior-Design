@@ -1,0 +1,105 @@
+.reviews {
+  width: 320px;
+  margin: 0;
+  padding: 0;
+  padding-top: 149px;
+  padding-bottom: 149px;
+
+  background-color: #fdfaf3;
+}
+.reviews__caption {
+  display: block;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 83px;
+
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+  color: #00203a;
+}
+.reviews__item {
+  position: relative;
+
+  width: 295px;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 196px;
+  padding-bottom: 53px;
+  margin-bottom: 49px;
+
+  background-color: #ffffff;
+}
+.reviews__author-image {
+  position: absolute;
+  left: 50%;
+  top: -30px;
+  transform: translateX(-50%);
+}
+.reviews__author-name {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  line-height: 30px;
+}
+.reviews__about-author {
+  display: block;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #efb172;
+}
+.reviews__text {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  color: #5e5e5e;
+}
+.reviews__list {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  list-style: none;
+}
+.reviews__button-item {
+  margin: 0;
+  padding: 0;
+
+  background-color: transparent;
+}
+.reviews__button {
+  width: 26px;
+  margin: 0;
+  padding: 0;
+
+  border: none;
+  border-top: 3px solid #dde0db;
+
+  cursor: pointer;
+  &.active {
+    border-color: #668182;
+  }
+}

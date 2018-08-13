@@ -28,6 +28,8 @@ body {
   background-image: url("../img/menu_mobile.png");
   border: none;
   background-color: transparent;
+
+  cursor: pointer;
 }
 .page-header__menu.open {
   width: 25px;
@@ -121,6 +123,8 @@ body {
   background-color: #f8a25a;
 
   border: none;
+
+  cursor: pointer;
 }
 .page-header__img {
   position: absolute;

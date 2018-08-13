@@ -1,0 +1,87 @@
+.form {
+  width: 320px;
+  margin: 0;
+  padding: 0;
+  padding-top: 86px;
+  padding-bottom: 75px;
+  padding-left: 16px;
+  padding-right: 13px;
+  box-sizing: border-box;
+
+  background-image: url("../img/form-kitchen_mobile.png");
+  background-repeat: no-repeat;
+}
+.form__caption {
+  width: 280px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 22px;
+
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+  color: #ffffff;
+}
+.form__text {
+  width: 285px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 44px;
+
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  line-height: 24px;
+  color: #beb2a8;
+}
+.form__input {
+  width: 290px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 14px;
+  margin-bottom: 57px;
+
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 17px;
+  color: #ffffff;
+
+  border: none;
+  border-bottom: 1px solid #beb2a8;
+  background-color: transparent;
+}
+.form__button {
+  width: 291px;
+  padding-top: 31px;
+  padding-bottom: 27px;
+  padding-left: 75px;
+  padding-right: 81px;
+  margin-bottom: 19px;
+
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 17px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  border: none;
+  border-radius: 10px;
+  background-color: #f8a25a;
+
+  cursor: pointer;
+}
+.form__regulations {
+  width: 260px;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Raleway";
+  font-weight: 400px;
+  font-size: 16px;
+  color: #78848e;
+  text-align: center;
+}
