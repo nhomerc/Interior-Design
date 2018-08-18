@@ -1,0 +1,17 @@
+{
+  "name": "gulp_project",
+  "description": "Example",
+  "main": "gulpfile.js",
+  "authors": [
+    "Dmitriy Ilichev"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/nhomerc/Interior-Design",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
