@@ -20,15 +20,18 @@ gulp.task("style", function () {
     .pipe(postcss([
       autoprefixer()
     ]))
-    .pipe(rename({suffix: '.min'}))
+    .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest("./build/css"))
+
     .pipe(server.stream());
+  gulp.src("source/css/*.css") //Выберем файлы по нужному пути
+    .pipe(gulp.dest("./build/css"))
 });
 
 gulp.task('js', function () {
   gulp.src('source/js/script.js') // файлы, которые обрабатываем
     .pipe(uglify()) // получившуюся "портянку" минифицируем
-    .pipe(rename({suffix: '.min'}))
+    .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest('./build/js/')) // результат пишем по указанному адресу
 });
 
@@ -43,14 +46,14 @@ gulp.task('image', function () {
     .pipe(gulp.dest("./build/img")) //И бросим в build
 });
 
-gulp.task('fonts', function() {
+gulp.task('fonts', function () {
   gulp.src("source/fonts/*.woff")
-      .pipe(gulp.dest("./build/fonts"))
+    .pipe(gulp.dest("./build/fonts"))
 });
 
 gulp.task('html', function () {
   gulp.src("source/*.html") //Выберем файлы по нужному пути
-      .pipe(gulp.dest("./build")) //Выплюнем их в папку build
+    .pipe(gulp.dest("./build")) //Выплюнем их в папку build
 });
 
 gulp.task('build', [
