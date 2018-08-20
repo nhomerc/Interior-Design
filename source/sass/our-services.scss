@@ -3,8 +3,6 @@
   margin: 0;
   padding: 0;
   padding-bottom: 109px;
-
-  background-color: #ffffff;
 }
 .our-services__caption {
   margin: 0;
@@ -74,4 +72,65 @@
   border: 2px solid #000000;
 
   cursor: pointer;
+}
+@media (min-width: 768px) {
+  .our-services {
+    width: 768px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 198px;
+  }
+  .our-services__caption {
+    margin: 0;
+    padding: 0;
+    padding-left: 36px;
+    padding-right: 37px;
+    margin-bottom: 45px;
+
+    text-align: left;
+  }
+  .our-services__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 36px;
+    padding-right: 37px;
+  }
+  .our-services__item {
+    width: 50%;
+    margin-bottom: 80px;
+  }
+  .our-services__item-text {
+    width: 290px;
+    margin: 0;
+    padding: 0;
+  }
+  .our-services__description {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 36px;
+    padding-right: 37px;
+  }
+  .our-services__text {
+    width: 500px;
+    padding-left: 0;
+  }
+  .our-services__quantity {
+    display: block;
+
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 22px;
+    text-align: right;
+  }
+  .our-services__button {
+    width: 339px;
+    margin-left: 0;
+    padding-top: 28px;
+    padding-bottom: 23px;
+    padding-left: 86px;
+    padding-right: 86px;
+
+    font-size: 18px;
+  }
 }

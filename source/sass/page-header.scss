@@ -119,7 +119,9 @@ body {
   font-family: "Raleway", serif;
   font-weight: 400;
   font-size: 14px;
+  text-transform: uppercase;
   color: #ffffff;
+
   background-color: #f8a25a;
 
   border: none;
@@ -136,3 +138,82 @@ body {
   display: block;
 }
 
+@media (min-width: 768px) {
+  body {
+    width: 768px;
+  }
+  .page-header {
+    width: 768px;
+    padding-top: 61px;
+    padding-right: 37px;
+    padding-bottom: 285px;
+    padding-left: 36px;
+
+    background-image: url("../img/header-layer_tablet.png"), url("../img/header-image_tablet.png");
+  }
+  .page-header__menu {
+    width: 64px;
+
+    background-image: url("../img/menu_tablet.png");
+    background-repeat: no-repeat;
+  }
+  .page-header__menu.open {
+    width: 45px;
+
+    background-image: url("../img/close_tablet.png");
+  }
+  .page-header__navigation {
+    margin-bottom: 201px;
+  }
+
+  .page-header__nav {
+    width: 768px;
+    padding-bottom: 183px;
+
+    background-color: #112537;
+  }
+  .page-header__list {
+    padding-top: 237px;
+
+    font-size: 35px;
+  }
+  .page-header__item {
+    margin-bottom: 60px;
+    &:last-child {
+      margin-bottom: 115px;
+    }
+  }
+  .page-header__social {
+    width: 320px;
+  }
+  .page-header__caption {
+    margin-bottom: 51px;
+
+    font-size: 100px;
+  }
+  .page-header__text {
+    display: block;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 64px;
+
+    font-size: 26px;
+    text-align: center;
+  }
+  .page-header__button {
+    width: 439px;
+    padding-top: 39px;
+    padding-bottom: 37px;
+    padding-left: 55px;
+    padding-right: 56px;
+
+    font-size: 30px;
+  }
+  .page-header__img {
+    position: absolute;
+    bottom: 129px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

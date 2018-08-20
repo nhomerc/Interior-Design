@@ -3,8 +3,6 @@
 
   width: 320px;
   padding-bottom: 134px;
-
-  background-color: #ffffff;
 }
 .portfolio__caption {
   margin: 0;
@@ -60,4 +58,28 @@
   text-align: center;
 
   transform: translateX(-50%);
+}
+@media (min-width: 768px) {
+  .portfolio {
+    width: 768px;
+    padding-bottom: 173px;
+  }
+  .portfolio__caption {
+    padding-left: 36px;
+    padding-right: 37px;
+    margin-bottom: 36px;
+
+    text-align: left;
+  }
+  .portfolio__list {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 36px;
+    padding-right: 37px;
+
+    font-weight: 400;
+  }
+  .portfolio__item {
+    margin-bottom: 0;
+  }
 }
