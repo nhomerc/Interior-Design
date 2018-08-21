@@ -16,7 +16,7 @@
     <div class="page-header__wrapper">
       <div class="page-header__navigation">
         <picture>
-          <source media="(min-width: 1200px)" srcset="img/logo_mobile.png">
+          <source media="(min-width: 1200px)" srcset="img/logo_tablet.png">
           <source media="(min-width: 768px)" srcset="img/logo_tablet.png">
           <img class="page-header__logo" src="img/logo_mobile.png">
         </picture>
@@ -49,7 +49,7 @@
           <li class="page-header__social-item">
             <a class="page-header__social-link" href="#">
               <picture>
-                <source media="(min-width: 1200px)" srcset="img/logo_mobile.png">
+                <source media="(min-width: 1200px)" srcset="img/vk-header_tablet.png">
                 <source media="(min-width: 768px)" srcset="img/vk-header_tablet.png">
                 <img src="img/vk-header_mobile.png">
               </picture>
@@ -67,7 +67,7 @@
           <li class="page-header__social-item">
             <a class="page-header__social-link" href="#">
               <picture>
-                <source media="(min-width: 1200px)" srcset="img/logo_mobile.png">
+                <source media="(min-width: 1200px)" srcset="img/facebook-header_tablet.png">
                 <source media="(min-width: 768px)" srcset="img/facebook-header_tablet.png">
                 <img src="img/facebook-header_mobile.png">
               </picture>
@@ -133,7 +133,7 @@
         <ul class="portfolio__list-image">
           <li class="portfolio__item-image">
             <picture>
-              <source media="(min-width: 1200px)" srcset="img/portfolio-first_mobile.png">
+              <source media="(min-width: 1200px)" srcset="img/portfolio-first_tablet.png">
               <source media="(min-width: 768px)" srcset="img/portfolio-first_tablet.png">
               <img class="portfolio__image" src="img/portfolio-first_mobile.png" alt="Дизайн интерьера гостиной">
             </picture>
@@ -141,14 +141,14 @@
           </li>
           <li class="portfolio__item-image">
             <picture>
-              <source media="(min-width: 1200px)" srcset="img/portfolio-second_mobile.png">
+              <source media="(min-width: 1200px)" srcset="img/portfolio-second_tablet.png">
               <source media="(min-width: 768px)" srcset="img/portfolio-second_tablet.png">
               <img class="portfolio__image" src="img/portfolio-second_mobile.png" alt="Дизайн">
             </picture>
           </li>
           <li class="portfolio__item-image">
             <picture>
-              <source media="(min-width: 1200px)" srcset="img/portfolio-third_mobile.png">
+              <source media="(min-width: 1200px)" srcset="img/portfolio-third_tablet.png">
               <source media="(min-width: 768px)" srcset="img/portfolio-third_tablet.png">
               <img class="portfolio__image" src="img/portfolio-third_mobile.png" alt="Дизайн интерьера столовой">
             </picture>
@@ -181,10 +181,11 @@
             <p class="our-services__item-text">Отделочные работы</p>
           </li>
           <li class="our-services__item">
-            <p class="our-services__item-text">Выезд дизайнера на дом</p></li>
+            <p class="our-services__item-text">Выезд дизайнера на дом</p>
+          </li>
         </ul>
         <picture>
-          <source media="(min-width: 1200px)" srcset="img/our-services_mobile.png">
+          <source media="(min-width: 1200px)" srcset="img/our-services_tablet.png">
           <source media="(min-width: 768px)" srcset="img/our-services_tablet.png">
           <img class="our-services__picture" src="img/our-services_mobile.png" alt="Наши услуги">
         </picture>
@@ -199,7 +200,12 @@
 
     <section class="about-us">
       <div class="about-us__wrapper">
-        <img class="about-us__picture" src="img/play_mobile.png" alt="Воспроизведение">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="img/play_tablet.png">
+          <source media="(min-width: 768px)" srcset="img/play_tablet.png">
+          <img class="about-us__picture" src="img/play_mobile.png" alt="Воспроизведение">
+        </picture>
+
         <p class="about-us__text">О студии дизайна интерьеров Brume за 2 минуты</p>
       </div>
     </section>
@@ -209,34 +215,52 @@
         <h2 class="stages-work__caption">Этапы работы</h2>
         <ul class="stages-work__list">
           <li class="stages-work__item">
-            <h3 class="stages-work__subtitle">Консультация</h3>
-            <hr class="stages-work__delimiter">
-            <p class="stages-work__text">Обсуждаем задачи и пожелания, предлагаем варианты дизайна интерьера, оговариваем сроки реализации.</p>
+            <p class="stages-work__item-number hidden">1</p>
+            <div class="stages-work__item-wrapper">
+              <h3 class="stages-work__subtitle">Консультация</h3>
+              <hr class="stages-work__delimiter">
+              <p class="stages-work__text">Обсуждаем задачи и пожелания, предлагаем варианты дизайна интерьера, оговариваем сроки реализации.</p>
+            </div>
           </li>
           <li class="stages-work__item">
-            <h3 class="stages-work__subtitle">Техническое задание</h3>
-            <hr class="stages-work__delimiter">
-            <p class="stages-work__text">Составляем техническое задание. Заключаем договор, в котором прописываем все этапы проекта.</p>
+            <p class="stages-work__item-number hidden">2</p>
+            <div class="stages-work__item-wrapper">
+              <h3 class="stages-work__subtitle">Техническое задание</h3>
+              <hr class="stages-work__delimiter">
+              <p class="stages-work__text">Составляем техническое задание. Заключаем договор, в котором прописываем все этапы проекта.</p>
+            </div>
           </li>
           <li class="stages-work__item">
-            <h3 class="stages-work__subtitle">Замеры и планировка</h3>
-            <hr class="stages-work__delimiter">
-            <p class="stages-work__text">Фиксируем размеры стен, окон, плинтусов, дверных проемов для эффективной работы</p>
+            <p class="stages-work__item-number hidden">3</p>
+            <div class="stages-work__item-wrapper">
+              <h3 class="stages-work__subtitle">Замеры и планировка</h3>
+              <hr class="stages-work__delimiter">
+              <p class="stages-work__text">Фиксируем размеры стен, окон, плинтусов, дверных проемов для эффективной работы</p>
+            </div>
           </li>
           <li class="stages-work__item">
-            <h3 class="stages-work__subtitle">Дизайн-концепция</h3>
-            <hr class="stages-work__delimiter">
-            <p class="stages-work__text">Создаем концепцию на основе пожеланий клиента, его образов и ощущений. Подбираем мебель.</p>
+            <p class="stages-work__item-number hidden">4</p>
+            <div class="stages-work__item-wrapper">
+              <h3 class="stages-work__subtitle">Дизайн-концепция</h3>
+              <hr class="stages-work__delimiter">
+              <p class="stages-work__text">Создаем концепцию на основе пожеланий клиента, его образов и ощущений. Подбираем мебель.</p>
+            </div>
           </li>
           <li class="stages-work__item">
-            <h3 class="stages-work__subtitle">3D Визуализация</h3>
-            <hr class="stages-work__delimiter">
-            <p class="stages-work__text">Создаем 3d визуализацию, собираем пакет чертежей соответствующий строительным нормам.</p>
+            <p class="stages-work__item-number hidden">5</p>
+            <div class="stages-work__item-wrapper">
+              <h3 class="stages-work__subtitle">3D Визуализация</h3>
+              <hr class="stages-work__delimiter">
+              <p class="stages-work__text">Создаем 3d визуализацию, собираем пакет чертежей соответствующий строительным нормам.</p>
+            </div>
           </li>
           <li class="stages-work__item">
-            <h3 class="stages-work__subtitle">Комплектация интерьера</h3>
-            <hr class="stages-work__delimiter">
-            <p class="stages-work__text">Подбираем мебель, отделочные материалы, светильники и текстиль. Декорируем интерьер.</p>
+            <p class="stages-work__item-number hidden">6</p>
+            <div class="stages-work__item-wrapper">
+              <h3 class="stages-work__subtitle">Комплектация интерьера</h3>
+              <hr class="stages-work__delimiter">
+              <p class="stages-work__text">Подбираем мебель, отделочные материалы, светильники и текстиль. Декорируем интерьер.</p>
+            </div>
           </li>
         </ul>
       </div>
@@ -247,9 +271,18 @@
         <h2 class="form__caption">Мечтаете об интерьере от BRUME?</h2>
         <p class="form__text">Оставьте контактные данные, менеджер свяжется с вами в течении 15 минут, для
           <br> уточнения всех деталей.</p>
-        <input class="form__input" type="text" name="input__name" placeholder="Имя*">
-        <input class="form__input" type="tel" name="input__phone" placeholder="Телефон*">
-        <input class="form__input" type="email" name="input__mail" placeholder="E-mail*">
+        <div class="form__wrapper-input">
+          <input class="form__input" type="text" name="input__name" placeholder="Имя*">
+          <img class="form__img hidden" src="img/name-icon_tablet.png">
+        </div>
+        <div class="form__wrapper-input">
+          <input class="form__input" type="tel" name="input__phone" placeholder="Телефон*">
+          <img class="form__img hidden" src="img/phone-icon_tablet.png">
+        </div>
+        <div class="form__wrapper-input">
+          <input class="form__input" type="email" name="input__mail" placeholder="E-mail*">
+          <img class="form__img hidden" src="img/mail-icon_tablet.png">
+        </div>
         <button class="form__button" type="button">Отправить</button>
         <p class="form__regulations">Нажимая кнопку, вы
           <br> соглашаетесь с условиями обработки персональных данных</p>

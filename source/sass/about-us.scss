@@ -27,3 +27,18 @@
   color: #ffffff;
   text-align: center;
 }
+@media (min-width: 768px) {
+  .about-us {
+    width: 768px;
+    padding-top: 312px;
+    padding-bottom: 284px;
+
+    background-image: url("../img/about-picture_tablet.png");
+    background-repeat: no-repeat;
+  }
+  .about-us__text {
+    width: 460px;
+
+    line-height: auto;
+  }
+}

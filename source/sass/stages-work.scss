@@ -4,8 +4,6 @@
   padding: 0;
   padding-top: 114px;
   padding-bottom: 116px;
-
-  background-color: #ffffff;
 }
 .stages-work__caption {
   display: block;
@@ -57,4 +55,69 @@
   margin-left: 0;
 
   border: 1px solid #000000;
+}
+@media (min-width: 768px) {
+  br {
+    display: none;
+  }
+  .stages-work {
+    width: 768px;
+    margin: 0;
+    padding: 0;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 187px;
+    padding-bottom: 156px;
+
+    box-sizing: border-box;
+  }
+  .stages-work__caption {
+    margin-bottom: 65px;
+
+    font-size: 45px;
+    text-align: left;
+  }
+  .stages-work__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  .stages-work__item {
+    display: flex;
+    align-items: baseline;
+    width: 355px;
+    margin-right: 0;
+  }
+  .stages-work__subtitle {
+    width: 280px;
+
+    font-size: 22px;
+  }
+  .stages-work__text {
+    font-size: 16px;
+  }
+  .stages-work__item-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+  }
+  .stages-work__item-number {
+    display: block;
+    min-width: 70px;
+    min-height: 70px;
+    margin: 0;
+    padding: 0;
+    padding-top: 35px;
+
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #00203a;
+
+    background: url("../img/ellipse_tablet.png");
+    background-position-y: 5px;
+    background-position-x: 1px;
+    background-repeat: no-repeat;
+  }
 }

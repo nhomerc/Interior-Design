@@ -85,3 +85,63 @@
   color: #78848e;
   text-align: center;
 }
+@media (min-width: 768px) {
+  .form {
+    width: 768px;
+    padding-top: 80px;
+    padding-bottom: 79px;
+    padding-left: 36px;
+    padding-right: 37px;
+
+    background-image: url("../img/form-kitchen_tablet.png");
+  }
+  .form__caption {
+    width: 573px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .form__text {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 44px;
+
+    font-size: 22px;
+  }
+  .form__input {
+    display: block;
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .form__button {
+    display: block;
+    width: 475px;
+    padding-top: 31px;
+    padding-bottom: 27px;
+    padding-left: 160px;
+    padding-right: 180px;
+    margin-bottom: 19px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .form__regulations {
+    display: block;
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 18px;
+  }
+  .form__wrapper-input {
+    position: relative;
+  }
+  .form__img {
+    position: absolute;
+    right: 110px;
+    top: 0px;
+
+    display: block;
+  }
+}
