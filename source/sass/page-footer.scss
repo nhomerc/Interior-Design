@@ -35,3 +35,33 @@
   line-height: 30px;
   color: #ffc487;
 }
+@media (min-width: 768px) {
+  .page-footer {
+    position: relative;
+
+    width: 768px;
+    padding-top: 77px;
+    padding-bottom: 82px;
+  }
+  .page-footer__logo {
+    margin: 0;
+    margin-left: 346px;
+  }
+  .page-footer__list {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 157px;
+
+    width: 150px;
+  }
+  .page-footer__company {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 36px;
+    padding-right: 37px;
+  }
+  .page-footer__text {
+    font-size: 16px;
+  }
+}

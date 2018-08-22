@@ -205,7 +205,6 @@
           <source media="(min-width: 768px)" srcset="img/play_tablet.png">
           <img class="about-us__picture" src="img/play_mobile.png" alt="Воспроизведение">
         </picture>
-
         <p class="about-us__text">О студии дизайна интерьеров Brume за 2 минуты</p>
       </div>
     </section>
@@ -293,7 +292,11 @@
       <div class="reviews__wrapper">
         <h2 class="reviews__caption">Отзывы наших клиентов</h2>
         <blockquote class="reviews__item">
-          <img class="reviews__author-image" src="img/review-foto_mobile.png" alt="Фото Александры">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/review-foto_tablet.png">
+            <source media="(min-width: 768px)" srcset="img/review-foto_tablet.png">
+            <img class="reviews__author-image" src="img/review-foto_mobile.png" alt="Фото Александры">
+          </picture>
           <cite class="reviews__author-name">Александра Холодная</cite>
           <p class="reviews__about-author">Услуга: интерьер детской</p>
           <p class="reviews__text">Спасибо студии за замечательный интерьер для моей 4-х летней дочки! Работа прошла быстро и легко, команда выполнила
@@ -319,26 +322,44 @@
 
   <footer class="page-footer">
     <div class="page-footer__wrapper">
-      <img class="page-footer__logo" src="img/footer-logo_mobile.png" alt="Логотип компании">
+      <picture>
+        <source media="(min-width: 1200px)" srcset="img/footer-logo_tablet.png">
+        <source media="(min-width: 768px)" srcset="img/footer-logo_tablet.png">
+        <img class="page-footer__logo" src="img/footer-logo_mobile.png" alt="Логотип компании" width="70">
+      </picture>
       <ul class="page-footer__list">
         <li class="page-footer__item">
           <a href="#">
-            <img class="page-footer__social-img" src="img/footer-vk_mobile.png" alt="ВКонтакте">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/footer-vk_tablet.png">
+              <source media="(min-width: 768px)" srcset="img/footer-vk_tablet.png">
+              <img class="page-footer__social-img" src="img/footer-vk_mobile.png" alt="ВКонтакте">
+            </picture>
           </a>
         </li>
         <li class="page-footer__item">
           <a href="#">
-            <img class="page-footer__social-img" src="img/footer-instagram_mobile.png" alt="Инстаграмм">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/footer-instagram_tablet.png">
+              <source media="(min-width: 768px)" srcset="img/footer-instagram_tablet.png">
+              <img class="page-footer__social-img" src="img/footer-instagram_mobile.png" alt="Инстаграмм">
+            </picture>
           </a>
         </li>
         <li class="page-footer__item">
           <a href="#">
-            <img class="page-footer__social-img" src="img/footer-facebook_mobile.png" alt="Фейсбук">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/footer-facebook_tablet.png">
+              <source media="(min-width: 768px)" srcset="img/footer-facebook_tablet.png">
+              <img class="page-footer__social-img" src="img/footer-facebook_mobile.png" alt="Фейсбук">
+            </picture>
           </a>
         </li>
       </ul>
-      <p class="page-footer__text">BRUME interior, 2017</p>
-      <p class="page-footer__text">HolodnayaDesign</p>
+      <div class="page-footer__company">
+        <p class="page-footer__text">BRUME interior, 2017</p>
+        <p class="page-footer__text">HolodnayaDesign</p>
+      </div>
     </div>
   </footer>
 </body>
