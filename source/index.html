@@ -16,13 +16,17 @@
     <div class="page-header__wrapper">
       <div class="page-header__navigation">
         <picture>
-          <source media="(min-width: 1200px)" srcset="img/logo_tablet.png">
+          <source media="(min-width: 1200px)" srcset="img/logo_desktop.png">
           <source media="(min-width: 768px)" srcset="img/logo_tablet.png">
           <img class="page-header__logo" src="img/logo_mobile.png">
         </picture>
         <button class="page-header__menu" type="button">
           <span class="visually-hidden">Меню</span>
         </button>
+        <div class="page-header__wrapper-phone">
+          <img class="page-header__phone-img hidden" src="img/header-phone_desktop.png" alt="Телефон" width="12" height="15">
+          <p class="page-header__phone hidden">+7 (800) 823 48 88</p>
+        </div>
       </div>
       <nav class="page-header__nav">
         <ul class="page-header__list">
@@ -49,7 +53,7 @@
           <li class="page-header__social-item">
             <a class="page-header__social-link" href="#">
               <picture>
-                <source media="(min-width: 1200px)" srcset="img/vk-header_tablet.png">
+                <source media="(min-width: 1200px)" srcset="img/vk-header_desktop.png">
                 <source media="(min-width: 768px)" srcset="img/vk-header_tablet.png">
                 <img src="img/vk-header_mobile.png">
               </picture>
@@ -58,7 +62,7 @@
           <li class="page-header__social-item">
             <a class="page-header__social-link" href="#">
               <picture>
-                <source media="(min-width: 1200px)" srcset="img/logo_mobile.png">
+                <source media="(min-width: 1200px)" srcset="img/instagram-header_desktop.png">
                 <source media="(min-width: 768px)" srcset="img/instagram-header_tablet.png">
                 <img src="img/instagram-header_mobile.png">
               </picture>
@@ -67,7 +71,7 @@
           <li class="page-header__social-item">
             <a class="page-header__social-link" href="#">
               <picture>
-                <source media="(min-width: 1200px)" srcset="img/facebook-header_tablet.png">
+                <source media="(min-width: 1200px)" srcset="img/facebook-header_desktop.png">
                 <source media="(min-width: 768px)" srcset="img/facebook-header_tablet.png">
                 <img src="img/facebook-header_mobile.png">
               </picture>
@@ -79,10 +83,24 @@
       <p class="page-header__text">Воплотим в жизнь интерьер, который будет радовать лаконичностью и уютом.</p>
       <button class="page-header__button" type="button">Заказать дизайн</button>
       <picture>
-        <source media="(min-width: 1200px)" srcset="img/arrow_tablet.png">
+        <source media="(min-width: 1200px)" srcset="img/arrow_desktop.png">
         <source media="(min-width: 768px)" srcset="img/arrow_tablet.png">
         <img class="page-header__img" src="img/arrow_mobile.png">
       </picture>
+      <ul class="page-header__button-list hidden">
+        <li class="page-header__button-item">
+          <button class="page-header__button-slide active" type="button"></button>
+        </li>
+        <li class="page-header__button-item">
+          <button class="page-header__button-slide" type="button"></button>
+        </li>
+        <li class="page-header__button-item">
+          <button class="page-header__button-slide" type="button"></button>
+        </li>
+        <li class="page-header__button-item">
+          <button class="page-header__button-slide" type="button"></button>
+        </li>
+      </ul>
     </div>
   </header>
   <main class="page-main">
