@@ -1,7 +1,6 @@
 .portfolio {
   position: relative;
 
-  width: 320px;
   padding-bottom: 134px;
 }
 .portfolio__caption {
@@ -15,6 +14,9 @@
   text-align: center;
 }
 .portfolio__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   padding-left: 16px;
 
   font-family: "Raleway";
@@ -23,10 +25,12 @@
   list-style: none;
 }
 .portfolio__item {
+  flex-grow: 1;
   margin: 0;
-  padding: 0;
+  padding: 0 10px;
   margin-bottom: 25px;
 
+  // text-align: center;
   color: #bababa;
   &:last-child {
     margin-bottom: 0;
@@ -37,11 +41,17 @@
 }
 .portfolio__list-image {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0;
   padding: 0;
 
   list-style: none;
+
+}
+.portfolio__item-image {
+  &:nth-child(even) {
+    margin:0 10px;
+  }
 }
 .portfolio__item-text {
   position: absolute;

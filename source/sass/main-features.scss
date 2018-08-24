@@ -2,9 +2,8 @@
   background-color: #ffffff;
 }
 .main-features {
-  width: 320px;
-  padding-left: 16px;
-  padding-right: 14px;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-top: 74px;
   padding-bottom: 87px;
   margin-left: auto;
@@ -13,10 +12,16 @@
   box-sizing: border-box;
 }
 .main-features__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin: 0;
   padding: 0;
 
   list-style: none;
+}
+.main-features__item {
+  width: 94%;
 }
 .main-features__number {
   margin: 0;
