@@ -213,13 +213,16 @@
 }
 @media (min-width: 1200px) {
   body {
+    margin: 0 auto;
+
     background-color: #fdfaf3;
   }
   .page-header {
     position: relative;
 
-    width: 1366px;
+    max-width: 1360px;
     padding: 0;
+    margin: 0 auto;
     padding-right: 96px;
     padding-bottom: 34px;
     padding-left: 102px;
@@ -228,6 +231,7 @@
     background-image: url("../img/header-layer_desktop.png"), url("../img/header-image_desktop.png");
     background-position: left 0, 101px 84px;
     background-repeat: no-repeat;
+    background-size: 50%, 85.5%;
   }
   .page-header__wrapper-phone {
     display: flex;
@@ -236,6 +240,8 @@
     width: 130px;
 
     color: #000000;
+
+    order: 3;
   }
   .page-header__phone-img {
     display: block;
@@ -251,9 +257,9 @@
   }
   .page-header__navigation {
     display: flex;
-    align-items: flex-start;
-    width: 1163px;
+    justify-content: space-between;
     margin: 0;
+    width: 100%;
   }
   .page-header__menu {
     width: 26px;
@@ -263,9 +269,6 @@
 
     background-image: url("../img/menu_desktop.png");
     background-repeat: no-repeat;
-  }
-  .page-header__wrapper-phone {
-    order: 3;
   }
   .page-header__menu.open {
     width: 26px;
@@ -294,35 +297,38 @@
     line-height: 21px;
   }
   .page-header__button {
+    position: relative;
+
     width: 277px;
     margin: 0;
     margin-left: 96px;
-    margin-bottom: 241px;
+    margin-bottom: 20%;
     padding-top: 19px;
     padding-bottom: 20px;
     padding-left: 29px;
     padding-right: 91px;
 
     font-size: 14px;
+    &::after {
+      position: absolute;
+
+      right: 20px;
+      content: url("../img/arrow_desktop.png");
+    }
   }
   .page-header__img {
-    bottom: 297px;
-    left: 404px;
+    display: none;
   }
   .page-header__nav {
     position: absolute;
     top: 84px;
     left: 101px;
 
-    width: 1163px;
-    padding-top: 130px;
-    padding-bottom: 141px;
+    width: 85.5%;
+    padding-top: 115px;
+    padding-bottom: 80px;
   }
   .page-header__social {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-
     display: flex;
     width: 120px;
   }
@@ -343,11 +349,13 @@
   .page-header__button-list {
     position: absolute;
     bottom: 44px;
-    right: 103px;
+    right: 7%;
 
     display: flex;
     justify-content: space-between;
     width: 140px;
+
+    list-style: none;
   }
   .page-header__button-slide {
     width: 26px;

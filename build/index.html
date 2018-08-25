@@ -83,7 +83,6 @@
       <p class="page-header__text">Воплотим в жизнь интерьер, который будет радовать лаконичностью и уютом.</p>
       <button class="page-header__button" type="button">Заказать дизайн</button>
       <picture>
-        <source media="(min-width: 1200px)" srcset="img/arrow_desktop.png">
         <source media="(min-width: 768px)" srcset="img/arrow_tablet.png">
         <img class="page-header__img" src="img/arrow_mobile.png">
       </picture>
@@ -111,15 +110,15 @@
             <li class="main-features__item">
               <h2 class="main-features__number">01</h2>
               <h3 class="main-features__caption">Берём весь ремонт на себя</h3>
-              <p class="main-features__text">Заботы по дизайну и отделке помещения возьмем на себя, останется дождаться завершения работ и наслаждаться
-                результатом
+              <p class="main-features__text">Заботы по дизайну и отделке помещения возьмем на себя, останется дождаться завершения
+                работ и наслаждаться результатом
               </p>
             </li>
             <li class="main-features__item">
               <h2 class="main-features__number">02</h2>
               <h3 class="main-features__caption">Мы - профессионалы своего дела</h3>
-              <p class="main-features__text">Наши дизайнеры постоянно повышают квалификацию, посещеют курсы и тренинги, а студия уже реализовала свыше 1000
-                дизайн-проектов
+              <p class="main-features__text">Наши дизайнеры постоянно повышают квалификацию, посещеют курсы и тренинги, а
+                студия уже реализовала свыше 1000 дизайн-проектов
               </p>
             </li>
           </div>
@@ -127,13 +126,14 @@
             <li class="main-features__item">
               <h2 class="main-features__number">03</h2>
               <h3 class="main-features__caption">Наши проекты индивидуальны</h3>
-              <p class="main-features__text">Каждый, созданный студией, интерьер - индивидуальное и максимально продуманное решение для каждого вида помещения</p>
+              <p class="main-features__text">Каждый, созданный студией, интерьер - индивидуальное и максимально продуманное
+                решение для каждого вида помещения</p>
             </li>
             <li class="main-features__item">
               <h2 class="main-features__number">04</h2>
               <h3 class="main-features__caption">Работаем на выгодных условиях</h3>
-              <p class="main-features__text">Ценовая политика студии очень лояльна, мы осуществляем контроль всего процесса работы и получаем результат
-                который делает клиентов счастивыми</p>
+              <p class="main-features__text">Ценовая политика студии очень лояльна, мы осуществляем контроль всего процесса
+                работы и получаем результат который делает клиентов счастивыми</p>
             </li>
           </div>
         </ul>
@@ -144,36 +144,49 @@
       <div class="portfolio__wrapper">
         <h2 class="portfolio__caption">Портфолио</h2>
         <ul class="portfolio__list">
-          <li class="portfolio__item active">Все проекты</li>
-          <li class="portfolio__item">Дизайн интерьеров</li>
-          <li class="portfolio__item">Отделочные работы</li>
+          <li class="portfolio__item"><button class="portfolio__item-button active" type="button">Все проекты</button></li>
+          <li class="portfolio__item"><button class="portfolio__item-button" type="button">Дизайн интерьеров</button></li>
+          <li class="portfolio__item"><button class="portfolio__item-button" type="button">Отделочные работы</button></li>
         </ul>
         <ul class="portfolio__list-image">
           <li class="portfolio__item-image">
             <picture>
-              <source media="(min-width: 1200px)" srcset="img/portfolio-first_tablet.png">
+              <source media="(min-width: 1200px)" srcset="img/portfolio-first_desktop.png">
               <source media="(min-width: 768px)" srcset="img/portfolio-first_tablet.png">
               <img class="portfolio__image" src="img/portfolio-first_mobile.png" alt="Дизайн интерьера гостиной">
             </picture>
             <p class="portfolio__item-text">Дизайн интерьера гостиной</p>
+            <p class="portfolio__item-text portfolio__item-text--vertical">Дизайн интерьера</p>
+            <button class="portfolio__item-slider portfolio__item-slider--left hidden" type="button"><img class="portfolio__item-arrow"
+                src="img/arrow-left_desktop.png">
+            </button>
           </li>
           <li class="portfolio__item-image">
             <picture>
-              <source media="(min-width: 1200px)" srcset="img/portfolio-second_tablet.png">
+              <source media="(min-width: 1200px)" srcset="img/portfolio-second_desktop.png">
               <source media="(min-width: 768px)" srcset="img/portfolio-second_tablet.png">
               <img class="portfolio__image" src="img/portfolio-second_mobile.png" alt="Дизайн">
             </picture>
+            <button class="portfolio__item-button portfolio__item-button--plus hidden" type="button">
+              <img class="portfolio__item-plus" src="img/portfolio-plus_desktop.png">
+            </button>
           </li>
           <li class="portfolio__item-image">
             <picture>
-              <source media="(min-width: 1200px)" srcset="img/portfolio-third_tablet.png">
+              <source media="(min-width: 1200px)" srcset="img/portfolio-third_desktop.png">
               <source media="(min-width: 768px)" srcset="img/portfolio-third_tablet.png">
               <img class="portfolio__image" src="img/portfolio-third_mobile.png" alt="Дизайн интерьера столовой">
             </picture>
             <p class="portfolio__item-text hidden">Дизайн столовой в стиле "Бохо"</p>
+            <p class="portfolio__item-text portfolio__item-text--vertical">Дизайн интерьера</p>
           </li>
           <li class="portfolio__item-image hidden">
+            <img class="portfolio__image" src="img/portfolio-fourth_desktop.png" alt="Лофт интерьер для отеля Hiloft">
             <p class="portfolio__item-text hidden">Лофт интерьер для отеля Hiloft</p>
+            <p class="portfolio__item-text portfolio__item-text--vertical">Дизайн интерьера</p>
+            <button class="portfolio__item-slider portfolio__item-slider--right hidden" type="button">
+              <img class="portfolio__item-arrow" src="img/arrow-right_desktop.png">
+            </button>
           </li>
         </ul>
       </div>
@@ -208,8 +221,8 @@
           <img class="our-services__picture" src="img/our-services_mobile.png" alt="Наши услуги">
         </picture>
         <div class="our-services__description">
-          <p class="our-services__text">Работая с коммерческими объектами, студия изучает целевую аудиторию, создает коммерческие интерьеры такими, чтобы
-            посетители кафе, бара, гостиницы хотели возвращаться в интерьер снова и снова</p>
+          <p class="our-services__text">Работая с коммерческими объектами, студия изучает целевую аудиторию, создает коммерческие
+            интерьеры такими, чтобы посетители кафе, бара, гостиницы хотели возвращаться в интерьер снова и снова</p>
           <p class="our-services__quantity hidden">532 проекта</p>
           <button class="our-services__button" type="button">Консультация</button>
         </div>
@@ -236,7 +249,8 @@
             <div class="stages-work__item-wrapper">
               <h3 class="stages-work__subtitle">Консультация</h3>
               <hr class="stages-work__delimiter">
-              <p class="stages-work__text">Обсуждаем задачи и пожелания, предлагаем варианты дизайна интерьера, оговариваем сроки реализации.</p>
+              <p class="stages-work__text">Обсуждаем задачи и пожелания, предлагаем варианты дизайна интерьера, оговариваем
+                сроки реализации.</p>
             </div>
           </li>
           <li class="stages-work__item">
@@ -244,7 +258,9 @@
             <div class="stages-work__item-wrapper">
               <h3 class="stages-work__subtitle">Техническое задание</h3>
               <hr class="stages-work__delimiter">
-              <p class="stages-work__text">Составляем техническое задание. Заключаем договор, в котором прописываем все этапы проекта.</p>
+              <p class="stages-work__text">Составляем техническое задание. Заключаем договор, в котором прописываем все этапы
+                проекта.
+              </p>
             </div>
           </li>
           <li class="stages-work__item">
@@ -260,7 +276,9 @@
             <div class="stages-work__item-wrapper">
               <h3 class="stages-work__subtitle">Дизайн-концепция</h3>
               <hr class="stages-work__delimiter">
-              <p class="stages-work__text">Создаем концепцию на основе пожеланий клиента, его образов и ощущений. Подбираем мебель.</p>
+              <p class="stages-work__text">Создаем концепцию на основе пожеланий клиента, его образов и ощущений. Подбираем
+                мебель.
+              </p>
             </div>
           </li>
           <li class="stages-work__item">
@@ -268,7 +286,9 @@
             <div class="stages-work__item-wrapper">
               <h3 class="stages-work__subtitle">3D Визуализация</h3>
               <hr class="stages-work__delimiter">
-              <p class="stages-work__text">Создаем 3d визуализацию, собираем пакет чертежей соответствующий строительным нормам.</p>
+              <p class="stages-work__text">Создаем 3d визуализацию, собираем пакет чертежей соответствующий строительным
+                нормам.
+              </p>
             </div>
           </li>
           <li class="stages-work__item">
@@ -317,8 +337,8 @@
           </picture>
           <cite class="reviews__author-name">Александра Холодная</cite>
           <p class="reviews__about-author">Услуга: интерьер детской</p>
-          <p class="reviews__text">Спасибо студии за замечательный интерьер для моей 4-х летней дочки! Работа прошла быстро и легко, команда выполнила
-            все точно в срок, сделали все как мы и хотели. В следующий раз обратимся к BRUME!</p>
+          <p class="reviews__text">Спасибо студии за замечательный интерьер для моей 4-х летней дочки! Работа прошла быстро
+            и легко, команда выполнила все точно в срок, сделали все как мы и хотели. В следующий раз обратимся к BRUME!</p>
         </blockquote>
         <ul class="reviews__list">
           <li class="reviews__button-item">

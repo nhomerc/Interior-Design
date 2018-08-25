@@ -62,8 +62,7 @@
     padding-left: 36px;
     padding-right: 37px;
     padding-top: 98px;
-    padding-bottom: 150px;
-
+    padding-bottom: 117px;
   }
   .main-features__list-wrapper {
     display: flex;
@@ -76,5 +75,35 @@
     margin-right: 70px;
 
     vertical-align: bottom;
+  }
+  .portfolio__item-button {
+    padding: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .main-features {
+    max-width: 1360px;
+    padding-left: 96px;
+    padding-right: 97px;
+    padding-top: 98px;
+    padding-bottom: 150px;
+  }
+  .main-features__list {
+    display: flex;
+  }
+  .main-features__list-wrapper {
+    width: 50%;
+  }
+  .main-features__item {
+    max-width: 50%;
+  }
+  .main-features__item:nth-child(even) {
+    padding-top: 200px;
+  }
+  .main-features__caption {
+    font-size: 22px;
+  }
+  .main-features__text {
+    font-size: 16px;
   }
 }
