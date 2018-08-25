@@ -61,10 +61,18 @@
   .page-footer__company {
     display: flex;
     justify-content: space-between;
-    padding-left: 36px;
-    padding-right: 37px;
+    width: 90%;
+    margin: 0 auto;
+
+    box-sizing: border-box;
   }
   .page-footer__text {
+    margin: 0;
+
     font-size: 16px;
+    text-align: left;
+    &:last-child {
+      text-align: right;
+    }
   }
 }
