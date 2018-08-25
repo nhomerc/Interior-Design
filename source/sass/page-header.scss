@@ -138,11 +138,7 @@
 }
 
 @media (min-width: 768px) {
-  body {
-    width: 768px;
-  }
   .page-header {
-    width: 768px;
     padding-top: 61px;
     padding-right: 37px;
     padding-bottom: 285px;
@@ -166,7 +162,6 @@
   }
 
   .page-header__nav {
-    width: 768px;
     padding-bottom: 183px;
 
     background-color: #112537;
@@ -216,10 +211,8 @@
     transform: translateX(-50%);
   }
 }
-@media (min-width: 1366px) {
+@media (min-width: 1200px) {
   body {
-    width: 1366px;
-
     background-color: #fdfaf3;
   }
   .page-header {

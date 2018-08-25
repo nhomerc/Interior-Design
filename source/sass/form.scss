@@ -92,7 +92,6 @@
 }
 @media (min-width: 768px) {
   .form {
-    width: 768px;
     padding-top: 80px;
     padding-bottom: 79px;
     padding-left: 36px;
@@ -116,7 +115,6 @@
   }
   .form__input {
     display: block;
-    width: 480px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -141,11 +139,14 @@
   }
   .form__wrapper-input {
     position: relative;
+
+    width: 62%;
+    max-width: 600px;
   }
   .form__img {
     position: absolute;
-    right: 110px;
-    top: 0px;
+    right: 0;
+    top: 0;
 
     display: block;
   }

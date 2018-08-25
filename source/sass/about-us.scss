@@ -11,7 +11,7 @@
 }
 .about-us__picture {
   display: block;
-  width: 50%;
+  width: 26%;
   margin: 0 auto;
   padding: 0 auto;
 }
@@ -30,7 +30,6 @@
 }
 @media (min-width: 768px) {
   .about-us {
-    width: 768px;
     padding-top: 312px;
     padding-bottom: 284px;
 
@@ -38,7 +37,7 @@
     background-repeat: no-repeat;
   }
   .about-us__text {
-    width: 460px;
+    width: 60%;
 
     line-height: auto;
   }

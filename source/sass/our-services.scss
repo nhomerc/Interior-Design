@@ -84,7 +84,6 @@
 }
 @media (min-width: 768px) {
   .our-services {
-    width: 768px;
     margin: 0;
     padding: 0;
     padding-bottom: 198px;
@@ -105,7 +104,7 @@
     padding-right: 37px;
   }
   .our-services__item {
-    width: 50%;
+    width: 300px;
     margin-bottom: 80px;
   }
   .our-services__item-text {
@@ -121,7 +120,7 @@
     padding-right: 37px;
   }
   .our-services__text {
-    width: 500px;
+    width: 65%;
     padding-left: 0;
   }
   .our-services__quantity {
