@@ -30,7 +30,6 @@
   padding: 0 10px;
   margin-bottom: 25px;
 
-  // text-align: center;
   color: #bababa;
   &:last-child {
     margin-bottom: 0;
@@ -41,17 +40,12 @@
 }
 .portfolio__list-image {
   display: flex;
-  justify-content: center;
-  margin: 0;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
   padding: 0;
 
   list-style: none;
-
-}
-.portfolio__item-image {
-  &:nth-child(even) {
-    margin:0 10px;
-  }
 }
 .portfolio__item-text {
   position: absolute;
@@ -68,6 +62,11 @@
   text-align: center;
 
   transform: translateX(-50%);
+}
+.portfolio__image {
+  display: block;
+  width: 100%;
+  object-fit: contain;
 }
 @media (min-width: 768px) {
   .portfolio {

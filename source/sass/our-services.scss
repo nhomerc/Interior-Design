@@ -1,5 +1,4 @@
 .our-services {
-  width: 320px;
   margin: 0;
   padding: 0;
   padding-bottom: 109px;
@@ -15,15 +14,20 @@
   text-align: center;
 }
 .our-services__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin: 0;
-  padding: 0;
-  padding-left: 16px;
+  padding: 0 16px;
 
   list-style: none;
 }
 .our-services__item {
+  max-width: 45%;
+  min-width: 282px;
+  flex-grow: 1;
   margin: 0;
-  padding: 0;
+  padding: 0 10px;
   margin-bottom: 30px;
 
   font-family: "Raleway";
@@ -72,6 +76,11 @@
   border: 2px solid #000000;
 
   cursor: pointer;
+}
+.our-services__picture {
+  display: block;
+  width: 100%;
+  object-fit: contain;
 }
 @media (min-width: 768px) {
   .our-services {

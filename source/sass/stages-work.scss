@@ -1,9 +1,7 @@
 .stages-work {
-  width: 320px;
   margin: 0;
   padding: 0;
-  padding-top: 114px;
-  padding-bottom: 116px;
+  margin-bottom: 115px;
 }
 .stages-work__caption {
   display: block;
@@ -17,6 +15,9 @@
   text-align: center;
 }
 .stages-work__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   padding-left: 16px;
@@ -25,7 +26,11 @@
   list-style: none;
 }
 .stages-work__item {
+  max-width: 45%;
+  min-width: 293px;
+  padding:0 10px;
   margin-bottom: 45px;
+  flex-grow: 1;
   &:last-child {
     margin-bottom: 0;
   }

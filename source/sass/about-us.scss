@@ -1,20 +1,22 @@
 .about-us {
-  width: 320px;
   margin: 0;
   padding: 0;
-  padding-top: 226px;
-  padding-bottom: 176px;
+  padding-top: 71%;
+  padding-bottom: 55%;
+  margin-bottom: 114px;
 
   background-image: url("../img/about-layer_mobile.png"), url("../img/about-picture_mobile.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .about-us__picture {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0 auto;
 }
 .about-us__text {
-  width: 290px;
+  width: 91%;
   margin: 0;
   padding: 0;
   margin-left: auto;
@@ -22,8 +24,7 @@
 
   font-family: "Raleway";
   font-weight: 400;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 6.875vw;
   color: #ffffff;
   text-align: center;
 }

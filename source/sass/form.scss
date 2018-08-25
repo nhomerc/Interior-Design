@@ -1,19 +1,19 @@
 .form {
-  width: 320px;
   margin: 0;
   padding: 0;
-  padding-top: 86px;
-  padding-bottom: 75px;
+  padding-top: 27%;
+  padding-bottom: 23%;
   padding-left: 16px;
   padding-right: 13px;
   box-sizing: border-box;
 
   background-image: url("../img/form-kitchen_mobile.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .form__caption {
-  width: 280px;
-  margin: 0;
+  width: 88%;
+  margin: 0 auto;
   padding: 0;
   margin-bottom: 22px;
 
@@ -24,8 +24,8 @@
   color: #ffffff;
 }
 .form__text {
-  width: 285px;
-  margin: 0;
+  width: 89%;
+  margin: 0 auto;
   padding: 0;
   margin-bottom: 44px;
 
@@ -36,9 +36,13 @@
   line-height: 24px;
   color: #beb2a8;
 }
+.form__wrapper-input {
+  width: 89%;
+  margin: 0 auto;
+}
 .form__input {
-  width: 290px;
-  margin: 0;
+  width: 100%;
+  margin: 0 auto;
   padding: 0;
   padding-bottom: 14px;
   margin-bottom: 57px;
@@ -54,11 +58,12 @@
   background-color: transparent;
 }
 .form__button {
-  width: 291px;
+  display: block;
   padding-top: 31px;
   padding-bottom: 27px;
   padding-left: 75px;
   padding-right: 81px;
+  margin: 0 auto;
   margin-bottom: 19px;
 
   font-family: "Raleway";
@@ -75,8 +80,8 @@
   cursor: pointer;
 }
 .form__regulations {
-  width: 260px;
-  margin: 0;
+  width: 81%;
+  margin: 0 auto;
   padding: 0;
 
   font-family: "Raleway";

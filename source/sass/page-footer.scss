@@ -1,5 +1,4 @@
 .page-footer {
-  width: 320px;
   margin: 0;
   padding: 0;
   padding-top: 98px;
@@ -8,25 +7,31 @@
   background-color: #182c3d;
 }
 .page-footer__logo {
-  margin-left: 124px;
+  display: block;
+  margin:0 auto;
   margin-bottom: 44px;
 }
 .page-footer__list {
   display: flex;
   justify-content: space-between;
   width: 218px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 61px;
 
   list-style: none;
 }
+.page-footer__company {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 71%;
+  margin: 0 auto;
+}
 .page-footer__text {
   display: block;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 0 10px;
 
   font-family: "Raleway";
   font-weight: 400;
