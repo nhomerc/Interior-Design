@@ -9,11 +9,16 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.about-us__picture {
+.about-us__button {
   display: block;
   width: 26%;
   margin: 0 auto;
   padding: 0 auto;
+
+  border: none;
+  background-color: transparent;
+
+  cursor: pointer;
 }
 .about-us__text {
   width: 91%;
@@ -40,5 +45,19 @@
     width: 60%;
 
     line-height: auto;
+  }
+}
+@media (min-width: 1200px) {
+  .about-us {
+    max-width: 1360px;
+    margin: 0 auto;
+
+    background-image: url("../img/about-picture_desktop.png");
+  }
+  .about-us__picture {
+    width: auto;
+  }
+  .about-us__text {
+    font-size: 18px;
   }
 }

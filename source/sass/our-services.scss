@@ -113,6 +113,8 @@
     padding: 0;
   }
   .our-services__description {
+    position: relative;
+
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -124,6 +126,10 @@
     padding-left: 0;
   }
   .our-services__quantity {
+    position: absolute;
+    top: 0;
+    right: 36px;
+
     display: block;
 
     font-family: "Raleway";
@@ -175,7 +181,8 @@
       padding-left: 28px;
     }
   }
-  .our-services__subtitle {
+  .our-services__subtitle.hidden {
+    display: block;
     margin: 0;
     padding: 0;
     margin-bottom: 20px;
@@ -197,6 +204,9 @@
     justify-content: space-between;
     padding: 0;
     margin-top: 50px;
+  }
+  .our-services__quantity {
+    position: static;
   }
   .our-services__button {
     width: 217px;
