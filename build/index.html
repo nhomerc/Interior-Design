@@ -150,51 +150,59 @@
         </ul>
         <ul class="portfolio__list-image">
           <li class="portfolio__item-image">
-            <picture>
-              <source media="(min-width: 1200px)" srcset="img/portfolio-first_desktop.png">
-              <source media="(min-width: 768px)" srcset="img/portfolio-first_tablet.png">
-              <img class="portfolio__image" src="img/portfolio-first_mobile.png" alt="Дизайн интерьера гостиной">
-            </picture>
-            <p class="portfolio__item-text">Дизайн интерьера гостиной</p>
-            <p class="portfolio__item-text portfolio__item-text--vertical">Дизайн интерьера</p>
-            <button class="portfolio__item-slider portfolio__item-slider--left hidden" type="button"><img class="portfolio__item-arrow"
-                src="img/arrow-left_desktop.png">
-            </button>
+            <div class="portfolio__item-wrapper">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="img/portfolio-first_desktop.png">
+                <source media="(min-width: 768px)" srcset="img/portfolio-first_tablet.png">
+                <img class="portfolio__image" src="img/portfolio-first_mobile.png" alt="Дизайн интерьера гостиной">
+              </picture>
+              <p class="portfolio__item-text">Дизайн интерьера гостиной</p>
+              <p class="portfolio__item-text portfolio__item-text--vertical">Дизайн интерьера</p>
+              <button class="portfolio__item-slider portfolio__item-slider--left hidden" type="button"><img class="portfolio__item-arrow"
+                  src="img/arrow-left_desktop.png">
+              </button>
+            </div>
           </li>
           <li class="portfolio__item-image">
-            <picture>
-              <source media="(min-width: 1200px)" srcset="img/portfolio-second_desktop.png">
-              <source media="(min-width: 768px)" srcset="img/portfolio-second_tablet.png">
-              <img class="portfolio__image" src="img/portfolio-second_mobile.png" alt="Дизайн">
-            </picture>
-            <button class="portfolio__item-button portfolio__item-button--plus hidden" type="button">
-              <img class="portfolio__item-plus" src="img/portfolio-plus_desktop.png">
-            </button>
+            <div class="portfolio__item-wrapper">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="img/portfolio-second_desktop.png">
+                <source media="(min-width: 768px)" srcset="img/portfolio-second_tablet.png">
+                <img class="portfolio__image" src="img/portfolio-second_mobile.png" alt="Дизайн">
+              </picture>
+              <button class="portfolio__item-button portfolio__item-button--plus hidden" type="button">
+                <img class="portfolio__item-plus" src="img/portfolio-plus_desktop.png">
+              </button>
+            </div>
           </li>
           <li class="portfolio__item-image">
-            <picture>
-              <source media="(min-width: 1200px)" srcset="img/portfolio-third_desktop.png">
-              <source media="(min-width: 768px)" srcset="img/portfolio-third_tablet.png">
-              <img class="portfolio__image" src="img/portfolio-third_mobile.png" alt="Дизайн интерьера столовой">
-            </picture>
-            <p class="portfolio__item-text hidden">Дизайн столовой в стиле "Бохо"</p>
-            <p class="portfolio__item-text portfolio__item-text--vertical">Дизайн интерьера</p>
+            <div class="portfolio__item-wrapper">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="img/portfolio-third_desktop.png">
+                <source media="(min-width: 768px)" srcset="img/portfolio-third_tablet.png">
+                <img class="portfolio__image" src="img/portfolio-third_mobile.png" alt="Дизайн интерьера столовой">
+              </picture>
+              <p class="portfolio__item-text hidden">Дизайн столовой в стиле "Бохо"</p>
+              <p class="portfolio__item-text portfolio__item-text--vertical">Дизайн интерьера</p>
+            </div>
           </li>
           <li class="portfolio__item-image hidden">
-            <img class="portfolio__image" src="img/portfolio-fourth_desktop.png" alt="Лофт интерьер для отеля Hiloft">
-            <p class="portfolio__item-text hidden">Лофт интерьер для отеля Hiloft</p>
-            <p class="portfolio__item-text portfolio__item-text--vertical">Дизайн интерьера</p>
-            <button class="portfolio__item-slider portfolio__item-slider--right hidden" type="button">
-              <img class="portfolio__item-arrow" src="img/arrow-right_desktop.png">
-            </button>
+            <div class="portfolio__item-wrapper">
+              <img class="portfolio__image" src="img/portfolio-fourth_desktop.png" alt="Лофт интерьер для отеля Hiloft">
+              <p class="portfolio__item-text hidden">Лофт интерьер для отеля Hiloft</p>
+              <p class="portfolio__item-text portfolio__item-text--vertical">Дизайн интерьера</p>
+              <button class="portfolio__item-slider portfolio__item-slider--right hidden" type="button">
+                <img class="portfolio__item-arrow" src="img/arrow-right_desktop.png">
+              </button>
+            </div>
           </li>
         </ul>
       </div>
     </section>
 
     <section class="our-services">
+      <h2 class="our-services__caption">Наши услуги</h2>
       <div class="our-services__wrapper">
-        <h2 class="our-services__caption">Наши услуги</h2>
         <ul class="our-services__list">
           <li class="our-services__item">
             <p class="our-services__item-text">Дизайн жилого помещения</p>
@@ -215,17 +223,26 @@
             <p class="our-services__item-text">Выезд дизайнера на дом</p>
           </li>
         </ul>
-        <picture>
-          <source media="(min-width: 1200px)" srcset="img/our-services_tablet.png">
-          <source media="(min-width: 768px)" srcset="img/our-services_tablet.png">
-          <img class="our-services__picture" src="img/our-services_mobile.png" alt="Наши услуги">
-        </picture>
-        <div class="our-services__description">
-          <p class="our-services__text">Работая с коммерческими объектами, студия изучает целевую аудиторию, создает коммерческие
-            интерьеры такими, чтобы посетители кафе, бара, гостиницы хотели возвращаться в интерьер снова и снова</p>
-          <p class="our-services__quantity hidden">532 проекта</p>
-          <button class="our-services__button" type="button">Консультация</button>
+        <div class="our-services__wrapper our-services__wrapper--second-column">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/our-services_desktop.png">
+            <source media="(min-width: 768px)" srcset="img/our-services_tablet.png">
+            <img class="our-services__picture" src="img/our-services_mobile.png" alt="Наши услуги">
+          </picture>
+          <div class="our-services__description">
+            <div class="our-services__text-wrapper">
+              <h3 class="our-services__subtitle">Дизайн коммерческих объектов</h3>
+              <p class="our-services__text">Работая с коммерческими объектами, студия изучает целевую аудиторию, создает
+                коммерческие интерьеры такими, чтобы посетители кафе, бара, гостиницы хотели возвращаться в интерьер снова
+                и снова</p>
+            </div>
+            <div class="our-services__description-wrapper">
+              <p class="our-services__quantity hidden">532 проекта</p>
+              <button class="our-services__button" type="button">Консультация</button>
+            </div>
+          </div>
         </div>
+      </div>
       </div>
     </section>
 
