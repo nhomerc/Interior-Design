@@ -151,3 +151,60 @@
     display: block;
   }
 }
+@media (min-width: 1200px) {
+  .form {
+    display: flex;
+    max-width: 1360px;
+    padding: 0;
+    margin: 0 auto;
+
+    background-image: none;
+  }
+  br {
+    display: none;
+  }
+  .form__wrapper {
+    width: 50%;
+    padding: 80px 100px;
+
+    background-color: #182c3d;
+
+    box-sizing: border-box;
+  }
+  .form__picture.hidden {
+    display: block;
+  }
+  .form__caption {
+    margin-bottom: 20px;
+
+    font-size: 27px;
+    text-align: left;
+  }
+  .form__text {
+    width: auto;
+    margin: 0;
+    margin-bottom: 30px;
+
+    font-size: 14px;
+    text-align: left;
+  }
+  .form__wrapper-input {
+    width: auto;
+    margin: 0;
+  }
+  .form__regulations {
+    width: auto;
+    margin: 0;
+
+    font-size: 14px;
+    text-align: left;
+  }
+  .form__button {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+
+    border: 1px solid #ffffff;
+    background-color: transparent;
+  }
+}

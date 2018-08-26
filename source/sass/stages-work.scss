@@ -125,3 +125,19 @@
     background-repeat: no-repeat;
   }
 }
+@media (min-width: 1200px) {
+  .stages-work {
+    max-width: 1360px;
+    padding: 0 95px;
+    margin: 0 auto;
+    margin-bottom: 140px;
+  }
+  .stages-work__list {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .stages-work__item {
+    padding: 0;
+    width: 33%;
+  }
+}
