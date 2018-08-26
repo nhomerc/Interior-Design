@@ -351,17 +351,21 @@
     <section class="reviews">
       <div class="reviews__wrapper">
         <h2 class="reviews__caption">Отзывы наших клиентов</h2>
-        <blockquote class="reviews__item">
-          <picture>
-            <source media="(min-width: 1200px)" srcset="img/review-foto_tablet.png">
-            <source media="(min-width: 768px)" srcset="img/review-foto_tablet.png">
-            <img class="reviews__author-image" src="img/review-foto_mobile.png" alt="Фото Александры">
-          </picture>
-          <cite class="reviews__author-name">Александра Холодная</cite>
-          <p class="reviews__about-author">Услуга: интерьер детской</p>
-          <p class="reviews__text">Спасибо студии за замечательный интерьер для моей 4-х летней дочки! Работа прошла быстро
-            и легко, команда выполнила все точно в срок, сделали все как мы и хотели. В следующий раз обратимся к BRUME!</p>
-        </blockquote>
+        <div class="reviews__blockquote-wrapper">
+          <img class="reviews__author--previous" src="img/review-hipster_desktop.png" alt="Фото хипстера">
+          <blockquote class="reviews__item">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/review-foto_desktop.png">
+              <source media="(min-width: 768px)" srcset="img/review-foto_tablet.png">
+              <img class="reviews__author-image" src="img/review-foto_mobile.png" alt="Фото Александры">
+            </picture>
+            <cite class="reviews__author-name">Александра Холодная</cite>
+            <p class="reviews__about-author">Услуга: интерьер детской</p>
+            <p class="reviews__text">Спасибо студии за замечательный интерьер для моей 4-х летней дочки! Работа прошла быстро
+              и легко, команда выполнила все точно в срок, сделали все как мы и хотели. В следующий раз обратимся к BRUME!</p>
+          </blockquote>
+          <img class="reviews__author--next" src="img/review-girl_desktop.png" alt="Фото">
+        </div>
         <ul class="reviews__list">
           <li class="reviews__button-item">
             <button class="reviews__button active" type="button"></button>

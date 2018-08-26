@@ -76,3 +76,16 @@
     }
   }
 }
+@media (min-width: 1200px) {
+  .page-footer {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding-left: 96px;
+    padding-right: 96px;
+
+    box-sizing: border-box;
+  }
+  .page-footer__company {
+    width: auto;
+  }
+}
